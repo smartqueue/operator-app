@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Starter Template for Bootstrap</title>
-    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
 
+    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="style.css" />
 		<script src="assets/jquery/jquery.min.js"></script>
-		<script src="controller.js"></script>
+
+    <script src="controller.js"></script>
 		<script src="model.js"></script>
 		<script src="view.js"></script>
 
@@ -26,15 +27,31 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container hidden">
 
       <form class="form-signin">
         <h2 class="form-signin-heading">Please sign in</h2>
-        <input type="text" class="form-control" placeholder="Email address" autofocus>
-        <input type="password" class="form-control" placeholder="Password">
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+        <input type="text" class="form-control" placeholder="Username" autofocus>
+        <input type="text" class="form-control" placeholder="Window">
+        <button class="btn btn-lg btn-primary btn-block" type="submit" style="margin-top: 5px;">Login</button>
       </form>
 
     </div><!-- /.container -->
+
+    <div class="container">
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Вызвать</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Перерыв</button>
+    </div>  
+
+
+    <div class="container">
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Подошел</button>
+    </div>
+
+    <div class="container">
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Завершить</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Перевести</button>
+    </div>
+
   </body>
 </html>
